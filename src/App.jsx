@@ -2,9 +2,8 @@ import React, {useState} from "react";
 
 import Todo from "./UL";
 import ToDoForm from "./TodoFill/Input";
-import "./Game.css"
+import "./todo.css"
 import Myimage from "./TodoFill/bg-desktop-dark.jpg"
-import Footer from "./Footer";
 
 function App() {
   const [todos, setTodos] = useState([]);
@@ -51,7 +50,6 @@ function App() {
      
         );
       })}
-      <Footer/>
     </div>
   );
 }
